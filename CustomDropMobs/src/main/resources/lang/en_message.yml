@@ -1,0 +1,43 @@
+# General messages
+messages:
+  reload_success: "&aConfig has been reloaded successfully!"
+  reload_failure: "&cFailed to reload config."
+  invalid_command_usage: "&cInvalid usage! Please check the command format."
+  help_message: |
+    &e----- CustomDropMobs Help -----
+    &a/cdm reload &f- Reload the configuration.
+    &a/cdm add <mob name> <rate> <item id/command> <quantity/command> &f- Add item drops for mobs.
+    &a/cdm remove <mob name> <serial number> &f- Remove an item drop from a mob.
+  command_added: "&aSuccessfully added drop to mob %mob%!"
+  command_removed: "&aSuccessfully removed drop from mob %mob%!"
+  no_permission: "&cYou don't have permission!"
+  invalid_mob: "&cInvalid mob type!"
+
+# Messages for drops
+drop_messages:
+  item_dropped: "&e%player% killed a %mob% and received: &f%item%!"
+  drop_failed_invalid_item: "&cInvalid item: %item%. Please check the configuration!"
+  drop_failed_no_chance: "&cNo valid chance was set for this drop!"
+
+# Messages for errors
+error_messages:
+  invalid_mob: "&cMob %mob% is not a valid mob or does not have any drops defined!"
+  invalid_drop_format: "&cInvalid drop format. Please make sure the chances are valid numbers!"
+  invalid_quantity: "&cThe quantity of %item% must be an integer!"
+  invalid_item_id: "&cItem ID '%item%' is invalid!"
+  invalid_chance_range: "&cChance must be between 1-100!"
+  invalid_index: "&cInvalid index! Valid range: 1-%max%"
+
+# Messages for commands
+command:
+  add_usage: "&cUsage: /cdm add <mob name> <rate> <item id/command> <quantity/command>"
+  remove_usage: "&cUsage: /cdm remove <mob name> <serial number>"
+  provide_command: "&cPlease provide the command string for command."
+  provide_quantity: "&cPlease provide the quantity for item drop."
+  provide_index: "The quantity must be an integer."
+  mob_count: "&aThere are %mob_count% custom dropped mobs:"
+  no_custom_drops: "&cThere are no custom dropped mobs."
+  mob_no_custom_drops: "&cMob %mob% does not have any custom drops."
+  current_drops: "&aCurrent drops for %mob%: %number%"
+  toogle_enabled: "&aDrop messages notifications enabled."
+  toogle_disabled: "&cDrop messages notifications disabled."

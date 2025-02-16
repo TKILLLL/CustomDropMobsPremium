@@ -1,0 +1,24 @@
+messages:
+  reload_success: "&aCấu hình đã được tải lại thành công!"
+  reload_failure: "&cTải lại cấu hình thất bại."
+  invalid_command_usage: "&cLệnh không hợp lệ! Vui lòng kiểm tra định dạng lệnh."
+  help_message: |
+    &e----- Trợ giúp CustomDropMobs -----
+    &a/cdm reload &f- Tải lại cấu hình.
+    &a/cdm add <tên mob> <tỷ lệ> <ID vật phẩm/lệnh> <số lượng/lệnh> &f- Thêm vật phẩm rơi cho mob.
+    &a/cdm remove <tên mob> <số sê-ri> &f- Xóa vật phẩm rơi khỏi mob.
+  command_added: "&aĐã thêm vật phẩm vào mob %mob%!"
+  command_removed: "&aĐã xóa vật phẩm khỏi mob %mob%!"
+
+drop_messages:
+  item_dropped: "&e%player% đã giết một %mob% và nhận được: &f%item%!"
+  drop_failed_invalid_item: "&cVật phẩm không hợp lệ: %item%. Vui lòng kiểm tra cấu hình!"
+  drop_failed_no_chance: "&cKhông có xác suất hợp lệ cho vật phẩm này!"
+
+error_messages:
+  invalid_mob: "&cMob %mob% không phải là mob hợp lệ hoặc không có vật phẩm rơi được định nghĩa!"
+  invalid_drop_format: "&cĐịnh dạng rơi không hợp lệ. Vui lòng chắc chắn rằng tỷ lệ là số hợp lệ!"
+  invalid_quantity: "&cSố lượng của %item% phải là một số nguyên!"
+  invalid_item_id: "&cID vật phẩm '%item%' không hợp lệ!"
+  invalid_chance_range: "&cXác suất phải nằm trong khoảng 1-100!"
+  invalid_index: "&cChỉ số không hợp lệ! Khoảng hợp lệ: 1-%max%"
