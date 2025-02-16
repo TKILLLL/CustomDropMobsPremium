@@ -1,0 +1,24 @@
+messages:
+  reload_success: "&aConfiguração recarregada com sucesso!"
+  reload_failure: "&cFalha ao recarregar a configuração."
+  invalid_command_usage: "&cUso inválido do comando! Verifique o formato do comando."
+  help_message: |
+    &e----- Ajuda do CustomDropMobs -----
+    &a/cdm reload &f- Recarregar a configuração.
+    &a/cdm add <nome do mob> <taxa> <ID do item/comando> <quantidade/comando> &f- Adicionar itens caídos para mobs.
+    &a/cdm remove <nome do mob> <número de série> &f- Remover item caído de um mob.
+  command_added: "&aItem adicionado com sucesso ao mob %mob%!"
+  command_removed: "&aItem removido com sucesso do mob %mob%!"
+
+drop_messages:
+  item_dropped: "&e%player% matou um %mob% e recebeu: &f%item%!"
+  drop_failed_invalid_item: "&cItem inválido: %item%. Verifique a configuração!"
+  drop_failed_no_chance: "&cNenhuma chance válida foi definida para esta queda!"
+
+error_messages:
+  invalid_mob: "&cMob %mob% não é um mob válido ou não tem quedas definidas!"
+  invalid_drop_format: "&cFormato de queda inválido. Verifique se as chances são números válidos!"
+  invalid_quantity: "&cA quantidade de %item% deve ser um número inteiro!"
+  invalid_item_id: "&cID do item '%item%' é inválido!"
+  invalid_chance_range: "&cA chance deve estar entre 1-100!"
+  invalid_index: "&cÍndice inválido! Faixa válida: 1-%max%"
